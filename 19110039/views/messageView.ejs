@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <h1>List member in mygroup</h1>
+    </header>
+    <body>
+          <main>
+            <ul>
+                <% list.forEach(function(item) { %>
+              <li> MSSV: <%= item.id %>   Name: <%= item.name %></li>
+                <% }); %>
+            </ul>
+          </main>
+    </body>
+</html>
